@@ -1,0 +1,22 @@
+.product-card{
+    padding: 0.5rem;
+    display: flex;
+}
+.product-card__text {
+    background-color: lightgray;
+    flex: 1;
+}
+.product-card__text--checked {
+    border: 1px solid green;
+}
+.product-card__text--pending {
+    border: 1px solid darkorange;
+}
+
+.product-card__checkbox{
+    flex: none;
+}
+
+.product-card__delete{
+    flex: none;
+}
